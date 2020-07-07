@@ -1,0 +1,32 @@
+{
+  "name": "gh-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "lint:fix": "tslint --project tsconfig.json --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javiergarmon/gh-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javiergarmon/gh-actions/issues"
+  },
+  "homepage": "https://github.com/javiergarmon/gh-actions#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^6.1.2",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.8.3"
+  }
+}
